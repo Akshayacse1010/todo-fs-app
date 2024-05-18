@@ -1,0 +1,72 @@
+/* card.css */
+
+/* 11111111 */
+.card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+}
+
+.card h2 {
+  color: black;
+  margin: 0;
+  font-size: 24px;
+}
+
+.card p {
+  color: black;
+  color: #666;
+  margin: 10px 0;
+}
+
+.card .interests {
+  color: black;
+  margin: 20px 0;
+  text-align: left;
+}
+
+.card .interests h3 {
+  color: black;
+  margin-bottom: 10px;
+}
+
+.card .interests ul {
+  color: black;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.card .interests ul li {
+  margin: 5px 0;
+}
+
+.card .social-buttons {
+  margin-top: 20px;
+}
+
+.card .social-buttons a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #0073b1;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 0 5px;
+  transition: background-color 0.3s;
+}
+
+.card .social-buttons a.twitter {
+  background-color: #1da1f2;
+}
+
+.card .social-buttons a:hover {
+  background-color: #005582;
+}
+
+.card .social-buttons a.twitter:hover {
+  background-color: #0d8ddf;
+}
